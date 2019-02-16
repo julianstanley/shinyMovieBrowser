@@ -1,0 +1,65 @@
+[0m[0K]0;:/c/Users/Julian/Documents/shinyPractice[?25l
+[0;32mJulian@LAPTOP-DBK6QD7H [0;35m [0;33m~/Documents/shinyPractice[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git i[0K[?25hn[0Ki[0Kt[0K[?25l
+[0K[?25hInitialized empty Git repository in C:/Users/Julian/Documents/shinyPractice/.git/[0K[?25l
+[0K[?25h[?25l
+[0;32mJulian@LAPTOP-DBK6QD7H [0;35m [0;33m~/Documents/shinyPractice[0;36m (master)[0m[0K[?25h[?25l
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[6G[?25l$ gi[0K[6G[?25h[5G[?25l$ g[0K[?25h[?25l$[0K[3G[?25h[?25l$ h[0K[?25hi[0Ks[0Kt[0Ko[0Kr[0Ky[0K[11G[?25l$ history |[0K[?25h[13G[?25l$ history | g[0K[?25hr[0Ke[0Kp[0K[18G[?25l$ history | grep o[0K[?25hr[0Ki[0Kg[0Ki[0Kn[0K[?25l
+[0K[?25h    9  git pull origin master[0K[?25l
+   23  git push origin js_mit_license_issue_20[0K
+   28  git pull origin master[0K
+   48  git push origin js_docs_issue_26[0K
+   98  git push origin js_docs_issue_26[0K
+  100  git push --delete origin js_docs_issue_26[0K
+  106  git push origin[0K
+  107  git push origin --delete js_docs_issue_26[0K
+  113  git pull origin master[0K
+  172  git push origin js_docs_issue_26[0K
+  175  git push origin js_docs_issue_26[0K
+  178  git push origin js_docs_issue_26[0K
+  181  git push origin js_docs_issue_26[0K
+  244  git push origin master[0K
+  248  git push origin master[0K
+  251  git push origin master[0K
+  255  git push origin master[0K
+  267  git push origin master[0K
+  269  git push origin master[0K
+  270  git remote set-url origin ssh://git@github.com/julianstanley/dont-forget.git[0K
+  275  git push origin master[0K
+  277  git remote add origin git@github.com:julianstanley/dont-forget.git[0K
+  279  git push origin master[0K
+  285  git push origin master[0K
+  288  git pull origin master[0K
+  295  git push origin master[0K
+  302  git push origin master[0K
+  309  git push origin master[0K[?25h[?25l
+  321  git pull origin master[0K
+  340  git remote add origin git@github.com:julianstanley/intsegments.git[0K
+  341  git push -u origin master[0K
+  352  git remote add origin git@github.com:julianstanley/genome-map.git[0K
+  353  git push -u origin master[0K
+  357  git push origin master[0K
+  369  git push origin master[0K
+  372  history | grep origin[0K
+[0K[?25h[?25l
+[0;32mJulian@LAPTOP-DBK6QD7H [0;35m [0;33m~/Documents/shinyPractice[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git r[0K[?25he[0Km[0Ko[0Kt[0Ke[0K[14G[?25l$ git remote a[0K[?25hd[0Kd[0K[18G[?25l$ git remote add o[0K[?25hr[0Ki[0Kg[0Ki[0Kn[0K[25G[?25l$ git remote add origin g[0K[?25hi[0Kt[0K[?25l$ git remote add origin gi[0K[?25h[?25l$ git remote add origin g[0K[?25h[?25l$ git remote add origin[0K[25G[?25h[?25l$ git remote add origin g[0K[?25hit@github.com:julianstanley/shinyMovieBrowser.git[0K[?25l
+[0K[?25h[?25l
+[0;32mJulian@LAPTOP-DBK6QD7H [0;35m [0;33m~/Documents/shinyPractice[0;36m (master)[0m[0K[25G[?25h[?25l
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git s[0K[?25ht[0Ka[0Kt[0Ku[0Ks[0K[?25l
+[0K[?25hOn branch master[0K[?25l
+[0K
+No commits yet[0K
+[0K
+Untracked files:[0K
+  (use "git add <file>..." to include in what will be committed)[0K
+[0K
+        [0;31m.Rproj.user/[0m[0K
+        [0;31mapp.R[0m[0K
+        [0;31mshinyPractice.Rproj[0m[0K
+[0K
+nothing added to commit but untracked files present (use "git add" to track)[0K
+[0K[?25h[?25l
+[0;32mJulian@LAPTOP-DBK6QD7H [0;35m [0;33m~/Documents/shinyPractice[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add -[0K[?25h-[0Ka[0Kl[0Kl[0K[?25l$ git add --al[0K[?25h[?25l$ git add --a[0K[15G[?25h[14G[?25l$ git add --[0K[?25h[?25l$ git add -[0K[?25h[?25l$ git add[0K[11G[?25h[10G[?25l$ git ad[0K[10G[?25h[9G[?25l$ git a[0K[?25h[?25l$ git[0K[7G[?25h[6G[?25l$ gi[0K[?25h[?25l$ g[0K[?25h[?25l$[0K[4G[?25h[3G[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add -[0K[?25h-[0Ka[0Kl[0Kl[0K[?25l
+[0K[?25h
