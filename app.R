@@ -3,6 +3,7 @@ library(ggplot2)
 library(dplyr)
 library(DT)
 load(url("http://s3.amazonaws.com/assets.datacamp.com/production/course_4850/datasets/movies.Rdata"))
+all_studios <- sort(unique(movies$studio))
 
 # Define UI for application that plots features of movies 
 ui <- fluidPage(
@@ -41,6 +42,14 @@ ui <- fluidPage(
                         min = 0, max = 1, 
                         value = 0.5),
             
+            # Pick a studio
+            selectInput(inputId = "studio",
+                        label = "Select studio:",
+                        choices = all_studios,
+                        selected = "20th Century Fox", 
+                        multiple = TRUE,
+                        selectize = TRUE),
+            
             # Show dat table
             checkboxInput(inputId = "show_data",
                           label = "Show data table",
@@ -77,11 +86,13 @@ server <- function(input, output) {
     
     # Print data table if checked
     output$moviestable <- DT::renderDataTable({
-        if(input$show_data){
-            DT::datatable(data = movies %>% select(1:7),
-                          options = list(pageLength = 10),
-                          rownames = FALSE)
-        }
+        req(input$studio)
+        movies_from_selected_studios <- movies %>%
+            filter(studio %in% input$studio) %>%
+            select(title:studio)
+        DT::datatable(data = movies_from_selected_studios,
+                      options = list(pageLength = 10),
+                      rownames = FALSE)
     })
 }
 
